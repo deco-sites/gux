@@ -44,5 +44,21 @@
   "/.deco/blocks/deco-htmx.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/htmx.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FHeader.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Header.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FFooter.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Footer.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FHeader2.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Header2.tsx"
+  },
+  "/.deco/blocks/GUX.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
   }
 }

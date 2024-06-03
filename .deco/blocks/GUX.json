@@ -1,0 +1,23 @@
+{
+  "__resolveType": "site/sections/Theme/Theme.tsx",
+  "buttonStyle": {
+    "--border-btn": "1px",
+    "--rounded-btn": "0.2rem",
+    "--btn-focus-scale": "0.9",
+    "--animation-btn": "0.25s"
+  },
+  "mainColors": {
+    "primary": "#FFFFFF",
+    "base-100": "#000000",
+    "secondary": "#969696"
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [],
+        "family": "Kantumruy Pro"
+      }
+    ]
+  }
+}
