@@ -20,22 +20,31 @@ function Footer({
   width = 50,
 }: Props) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
-          <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
-          />
-        )}
-      </a>
+    <div class="fixed bottom-0 w-full mx-auto">
+      <div class="flex  border border-[#3B3B3B]">
+        <div class="flex-[1_1_auto] md:basis-1/5 hidden md:flex border-r border-[#3B3B3B] px-8 pt-8">
+          <p class="text-[#3B3B3B] uppercase">Menu</p>
+        </div>
+        <div class="flex flex-col lg:flex-row basis-full md:basis-4/5">
+          <div class="flex-[1_1_auto] md:basis-1/2 border-b lg:border-b-0 lg:border-r border-[#3B3B3B] py-2 px-8">
+            <p class="text-[70px] font-[300] text-white uppercase leading-[70px]">Contato</p>
+          </div>
+          <div class="flex-[1_1_auto] md:basis-1/2 py-2 px-8">
+            <p class="text-[70px] font-[300] text-white uppercase leading-[70px]">Linkedin</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex border-x border-b border-[#3B3B3B]">
+        <div class="flex-[1_2_auto] md:basis-1/5 hidden md:flex border-r border-[#3B3B3B] pt-8 px-8">
+          <p class="text-[#3B3B3B] uppercase">Onde Estamos</p>
+        </div>
+        <div class="flex flex-col lg:flex-row basis-full md:basis-4/5">
+          <div class="flex-[1_1_auto] md:basis-1/2 border-b lg:border-b-0 lg:border-r border-[#3B3B3B] pt-8 px-8 pb-[256px]">
+            <p class="text-[14px] font-[300] uppercase text-[#3B3B3B] leading-4">Rua Mourato Coelho, 1.404, 5º andar <br>
+              Vila Madalena, São Paulo SP CEP 05417-002</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
