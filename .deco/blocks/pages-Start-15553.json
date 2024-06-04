@@ -4,6 +4,18 @@
   "sections": [
     {
       "__resolveType": "Preview /sections/Header2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Principal.tsx"
+    },
+    {
+      "__resolveType": "site/sections/SobreNos.tsx"
+    },
+    {
+      "__resolveType": "site/sections/OqueFazemos.tsx"
+    },
+    {
+      "__resolveType": "Preview site/sections/Footer.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

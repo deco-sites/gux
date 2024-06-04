@@ -20,7 +20,7 @@ function Footer({
   width = 50,
 }: Props) {
   return (
-    <div class="fixed bottom-0 w-full mx-auto">
+    <div class="w-full mx-auto">
       <div class="flex  border border-[#3B3B3B]">
         <div class="flex-[1_1_auto] md:basis-1/5 hidden md:flex border-r border-[#3B3B3B] px-8 pt-8">
           <p class="text-[#3B3B3B] uppercase">Menu</p>
@@ -40,8 +40,7 @@ function Footer({
         </div>
         <div class="flex flex-col lg:flex-row basis-full md:basis-4/5">
           <div class="flex-[1_1_auto] md:basis-1/2 border-b lg:border-b-0 lg:border-r border-[#3B3B3B] pt-8 px-8 pb-[256px]">
-            <p class="text-[14px] font-[300] uppercase text-[#3B3B3B] leading-4">Rua Mourato Coelho, 1.404, 5º andar <br>
-              Vila Madalena, São Paulo SP CEP 05417-002</p>
+            <p class="text-[14px] font-[300] uppercase text-[#3B3B3B] leading-4">Rua Mourato Coelho, 1.404, 5º andar Vila Madalena, São Paulo SP CEP 05417-002</p>
           </div>
         </div>
       </div>
