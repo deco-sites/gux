@@ -21,7 +21,7 @@ function Footer({
 }: Props) {
   return (
     <div class="w-full mx-auto">
-      <div class="flex  border border-[#3B3B3B]">
+      <div class="flex  border border-t-0 border-[#3B3B3B]">
         <div class="flex-[1_1_auto] md:basis-1/5 hidden md:flex border-r border-[#3B3B3B] px-8 pt-8">
           <p class="text-[#3B3B3B] uppercase">Menu</p>
         </div>

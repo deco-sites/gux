@@ -10,7 +10,7 @@ interface Props {
   
   export default function Section({ line1 = "Aproximamos", line2 = "marcas & pessoas", line3 = "através da ", line4 = "experiência" }: Props) {
     return (
-        <section class="border border-[#3B3B3B]">
+        <section class="border border-t-0 border-[#3B3B3B]">
             <div class="flex flex-col md:flex-row">
                 <div class="flex justify-center flex-[1_1_auto] md:basis-1/2 py-5 md:py-[80px] border-b md:border-b-0 md:border-r border-[#3B3B3B]">
                     <div>
