@@ -39,10 +39,10 @@ interface Props {
                         </svg>                        
                     </div>
                 </div>
-                <div class="flex-[1_1_auto] md:basis-1/2 px-4 md:px-8 pt-5 md:pt-8 pb-[182px] md:pb-0">
+                <div class="flex-[1_1_auto] md:basis-1/2 px-4 md:px-8 pt-5 md:pt-8 pb-[182px] md:pb-0 kantumruy-pro-light">
                     <div class="uppercase max-w-[632px]">
-                        <p class="text-[36px] lg:text-[56px] leading-[36px] lg:leading-[56px] font-light text-white mb-[20px]">
-                            <span class="text-[#3B3B3B] md:text-white">{ line1 }</span> { line2 } 
+                        <p class="text-[36px] lg:text-[56px] leading-[36px] lg:leading-[56px] text-white mb-[20px] tracking-[-2.8px]">
+                            <span class="text-[#3B3B3B] md:text-white">{ line1 }</span><br/>{ line2 }<br/> 
                             <span class="text-[#3B3B3B] md:text-white">{ line3 }</span> { line4 }
                         </p>
                     </div>

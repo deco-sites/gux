@@ -13,14 +13,14 @@ interface Props {
         
         <section class="border border-t-0 border-[#3B3B3B]">
             <div class="flex flex-col md:flex-row">
-                <div class="flex-[1_1_auto] md:basis-1/5 px-8 pt-8 md:border-r border-[#3B3B3B]">
-                    <p class="text-sm font-light text-[#969696] uppercase">O que fazemos</p>
+                <div class="flex-[1_1_auto] md:basis-1/5 px-8 pt-8 md:border-r border-[#3B3B3B] ibm-plex-mono-light">
+                    <p class="text-sm text-[#969696] uppercase">O que fazemos</p>
                 </div>
-                <div class="flex flex-wrap gap-[80px] md:gap-[32px] flex-[1_1_auto] md:basis-4/5 px-8 pt-5 md:pt-8 pb-[256px]">
+                <div class="flex flex-wrap gap-[80px] md:gap-[32px] flex-[1_1_auto] md:basis-4/5 px-8 pt-5 md:pt-8 pb-[256px] kantumruy-pro-light">
                     <div class="flex flex-col sm:flex-row gap-[80px] sm:gap-[32px]">
                         <div class="min-w-[202px]">
-                            <p class="text-base font-light text-white uppercase mb-[20px]">DESCOBERTA</p>
-                            <p class="text-sm font-normal text-[#969696]">
+                            <p class="text-base text-white uppercase mb-[20px]">DESCOBERTA</p>
+                            <p class="text-sm font-normal text-[#969696] leading-[140%]">
                                 Pesquisa  <br/>
                                 Análise <br/>
                                 Entrevistas <br/>
@@ -32,8 +32,8 @@ interface Props {
                             </p>
                         </div>
                         <div class="min-w-[202px]">
-                            <p class="text-base font-light text-white uppercase mb-[20px]">DEFINIÇÃO</p>
-                            <p class="text-sm font-normal text-[#969696]">
+                            <p class="text-base text-white uppercase mb-[20px]">DEFINIÇÃO</p>
+                            <p class="text-sm font-normal text-[#969696] leading-[140%]">
                                 Estratégia de produto <br/>
                                 Proposta de valor <br/>
                                 Backlog <br/>
@@ -47,8 +47,8 @@ interface Props {
 
                     <div class="flex flex-col sm:flex-row gap-[80px] sm:gap-[32px]">
                         <div class="min-w-[202px]">
-                            <p class="text-base font-light text-white uppercase mb-[20px]">DESENHO</p>
-                            <p class="text-sm font-normal text-[#969696]">
+                            <p class="text-base text-white uppercase mb-[20px]">DESENHO</p>
+                            <p class="text-sm font-normal text-[#969696] leading-[140%]">
                                 Arquitetura de informação
                                 Mapas <br/>
                                 Fluxos <br/>
@@ -62,8 +62,8 @@ interface Props {
                             </p>
                         </div>
                         <div class="min-w-[202px]">
-                            <p class="text-base font-light text-white uppercase mb-[20px]">DESENVOLVIMENTO</p>
-                            <p class="text-sm font-normal text-[#969696]">
+                            <p class="text-base text-white uppercase mb-[20px]">DESENVOLVIMENTO</p>
+                            <p class="text-sm font-normal text-[#969696] leading-[140%]">
                                 Tech Assessment <br/>
                                 Integrações de sistema <br/>
                                 Estratégia e implementação de LLM <br/>

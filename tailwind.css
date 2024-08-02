@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace !important;
+  font-weight: 200 !important;
+  font-style: normal;
+}
+  
+.kantumruy-pro-light {
+  font-family: "Kantumruy Pro", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 200 !important;
+  font-style: normal;
+}
+
 @layer base {
 
   /* Allow changing font family via CMS */
