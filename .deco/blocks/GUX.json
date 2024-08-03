@@ -15,15 +15,19 @@
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
     "fonts": [
       {
-        "variations": [{
+        "variations": [
+          {
             "weight": "300"
-          }],
+          }
+        ],
         "family": "Kantumruy Pro"
       },
       {
-        "variations": [{
+        "variations": [
+          {
             "weight": "300"
-          }],
+          }
+        ],
         "family": "IBM Plex Mono"
       }
     ]

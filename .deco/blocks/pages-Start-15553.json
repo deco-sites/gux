@@ -6,7 +6,8 @@
       "__resolveType": "Preview /sections/Header2.tsx"
     },
     {
-      "__resolveType": "site/sections/Principal.tsx"
+      "__resolveType": "site/sections/Principal.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/879d8daa-6069-47d0-8c0d-6e6c740b1109"
     },
     {
       "__resolveType": "site/sections/SobreNos.tsx"

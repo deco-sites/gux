@@ -60,5 +60,13 @@
   "/.deco/blocks/GUX.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FPrincipal.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Principal.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FPrincipal.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Principal.tsx"
   }
 }
