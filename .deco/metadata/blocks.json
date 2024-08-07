@@ -68,5 +68,9 @@
   "/.deco/blocks/Preview%20site%2Fsections%2FPrincipal.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Principal.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FOqueFazemos.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/OqueFazemos.tsx"
   }
 }

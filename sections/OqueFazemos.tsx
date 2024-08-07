@@ -7,11 +7,11 @@ export type Categoria = {
 
 
 interface Props {
-    /**
-    * @description Informe a categoria.
-    */
+  titulo?: string;
+  /**
+  * @description Informe a categoria.
+  */
     categorias?: Categoria[];
-    titulo?: string;
   }
   
 export default function Section({
