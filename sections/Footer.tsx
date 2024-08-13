@@ -28,16 +28,16 @@ function Footer({
         <div class="flex flex-col lg:flex-row basis-full md:basis-4/5">
           <a href="mailto:contato@gux.cx" class="flex-[1_1_auto] md:basis-1/2 border-b lg:border-b-0 lg:border-r border-[#3B3B3B] pl-8">
             <div class="flex group">
-              <div class="grow shrink basis-0 text-white text-[70px] font-light font-['Kantumruy Pro'] uppercase leading-[70px] py-2">CONTATO</div>
-              <div class="flex border-l border-[#3b3b3b] h-auto w-fit px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="grow shrink basis-0 text-white text-[54px] md:text-[70px] font-light font-['Kantumruy Pro'] uppercase leading-[70px] py-2">CONTATO</div>
+              <div class="flex border-l border-[#3b3b3b] h-auto w-fit px-4 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div class="text-white text-[70px] font-light font-['Kantumruy Pro'] uppercase leading-[70px] py-2">↗</div>
               </div>
             </div>
           </a>
           <a href="https://www.linkedin.com/company/gux-ux" target="_balnk" class="flex-[1_1_auto] md:basis-1/2 border-b lg:border-b-0 lg:border-r border-[#3B3B3B] pl-8">
             <div class="flex group">
-              <div class="grow shrink basis-0 text-white text-[70px] font-light font-['Kantumruy Pro'] uppercase leading-[70px] py-2">Linkedin</div>
-              <div class="flex border-l border-[#3b3b3b] h-auto w-fit px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="grow shrink basis-0 text-white text-[54px] md:text-[70px] font-light font-['Kantumruy Pro'] uppercase leading-[70px] py-2">Linkedin</div>
+              <div class="flex border-l border-[#3b3b3b] h-auto w-fit px-4 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div class="text-white text-[70px] font-light font-['Kantumruy Pro'] uppercase leading-[70px] py-2">↗</div>
               </div>
             </div>
