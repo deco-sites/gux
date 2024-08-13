@@ -19,7 +19,7 @@ interface Props {
                     <p class="text-sm text-[#969696] uppercase ibm-plex-mono-light">{ titulo }</p>
                 </div>
                 <div class="flex-[1_1_auto] md:basis-4/5 px-8 pt-5 md:pt-8 pb-[256px] kantumruy-pro-light">
-                    <div class="uppercase lg:mr-[25vw] leading-[39.9px] tracking-[-1.52px] max-w-[793px]">
+                    <div class="uppercase lg:mr-[25vw] leading-6 md:leading-10 tracking-[-1.52px] max-w-[793px]">
                         <p class="text-[23px] md:text-[38px] text-white mb-[20px]">{ linha1 }</p>
                         <p class="text-[23px] md:text-[38px] text-[#969696]">{ linha2 }</p>
                     </div>

@@ -7,13 +7,35 @@
     },
     {
       "__resolveType": "site/sections/Principal.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/879d8daa-6069-47d0-8c0d-6e6c740b1109"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/42d5acbe-302b-4a1b-b218-55e54fad26ed"
     },
     {
-      "__resolveType": "site/sections/SobreNos.tsx"
+      "__resolveType": "site/sections/SobreNos.tsx",
+      "titulo": "Sobre nós",
+      "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
+      "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais.Criamos experiências capazes de fidelizar, trazer resultados e encantar."
     },
     {
-      "__resolveType": "site/sections/OqueFazemos.tsx"
+      "__resolveType": "site/sections/OqueFazemos.tsx",
+      "titulo": "O que fazemos",
+      "categorias": [
+        {
+          "nome": "Descoberta",
+          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Atividades para entender no detalhe os desafios e o problema a ser resolvido em todas as dimensões - negócio, tecnologia e pessoas.</span></p>"
+        },
+        {
+          "nome": "Definição",
+          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Conceituação da solução, incluindo proposta de valor, prototipagem e validação com as pessoas que vão usar o produto final.</span></p>"
+        },
+        {
+          "nome": "Desenho",
+          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">A materialização completa da experiência, com a produção de telas, guias, fluxos das jornadas e prototipagem completa. Atividades de UX, UI e UX Writing para deixar o produto o mais próximo do final.</span></p>"
+        },
+        {
+          "nome": "Desenvolvimento",
+          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Front-end completo e suporte para o desenvolvimento através de instruções, apresentações e até mesmo validação da implementação.</span></p>"
+        }
+      ]
     },
     {
       "__resolveType": "Preview site/sections/Footer.tsx"
