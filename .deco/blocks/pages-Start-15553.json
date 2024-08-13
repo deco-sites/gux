@@ -13,7 +13,7 @@
       "__resolveType": "site/sections/SobreNos.tsx",
       "titulo": "Sobre nós",
       "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
-      "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais.Criamos experiências capazes de fidelizar, trazer resultados e encantar."
+      "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar."
     },
     {
       "__resolveType": "site/sections/OqueFazemos.tsx",
