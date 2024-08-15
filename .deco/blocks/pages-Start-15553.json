@@ -48,7 +48,20 @@
             ]
           },
           {
-            "__resolveType": "Preview site/sections/Footer.tsx"
+            "__resolveType": "site/sections/Footer.tsx",
+            "links": [
+              {
+                "label": "Contact",
+                "url": "mailto:contato@gux.cx"
+              },
+              {
+                "label": "Linkedin",
+                "url": "https://www.linkedin.com/company/gux-ux"
+              }
+            ],
+            "tituloMenu": "Menu",
+            "tituloEndereco": "Where",
+            "endereco": "Mourato Coelho St., 1.404, 5º Floor\nVila Madalena, São Paulo SP CEP 05417-002"
           }
         ],
         "rule": {
@@ -102,7 +115,20 @@
             ]
           },
           {
-            "__resolveType": "Preview site/sections/Footer.tsx"
+            "__resolveType": "site/sections/Footer.tsx",
+            "links": [
+              {
+                "label": "Contato",
+                "url": "mailto:contato@gux.cx"
+              },
+              {
+                "label": "Linkedin",
+                "url": "https://www.linkedin.com/company/gux-ux"
+              }
+            ],
+            "tituloMenu": "Menu",
+            "tituloEndereco": "Onde",
+            "endereco": "Rua Mourato Coelho, 1.404, 5ºAndar\nVila Madalena, São Paulo - SP CEP 05417-002"
           }
         ],
         "rule": {
