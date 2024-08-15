@@ -2,7 +2,7 @@
   "__resolveType": "site/sections/Footer.tsx",
   "links": [
     {
-      "label": "Contato",
+      "label": "Contact",
       "url": "mailto:contato@gux.cx"
     },
     {
@@ -11,6 +11,6 @@
     }
   ],
   "tituloMenu": "Menu",
-  "tituloEndereco": "Onde Estamos",
-  "endereco": "Rua Mourato Coelho, 1.404, 5º andar\nVila Madalena, São Paulo SP CEP 05417-002"
+  "tituloEndereco": "Where",
+  "endereco": "Mourato Coelho St., 1.404, 5º Floor\nVila Madalena, São Paulo SP CEP 05417-002"
 }

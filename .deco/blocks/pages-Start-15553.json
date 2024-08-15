@@ -16,7 +16,8 @@
             "line1": "We bring brands",
             "line2": " & people together ",
             "line3": " through experience",
-            "line4": " "
+            "line4": " ",
+            "titulo": "We bring brands & people together through experience\n"
           },
           {
             "__resolveType": "site/sections/SobreNos.tsx",
@@ -26,7 +27,7 @@
           },
           {
             "__resolveType": "site/sections/OqueFazemos.tsx",
-            "titulo": "O que fazemos",
+            "titulo": "What we do",
             "categorias": [
               {
                 "nome": "Discovery",
@@ -34,7 +35,7 @@
               },
               {
                 "nome": "Definition",
-                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Conceituação da solução, incluindo proposta de valor, prototipagem e validação com as pessoas que vão usar o produto final.</span></p>"
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Product strategy</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Value proposition</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Backlog</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Roadmap</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Conceptualization</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Concept testing</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Usability testing</span></p>"
               },
               {
                 "nome": "Design",
@@ -66,50 +67,17 @@
       {
         "value": [
           {
-            "__resolveType": "website/flags/multivariate/section.ts",
-            "variants": [
-              {
-                "value": {
-                  "__resolveType": "site/sections/Header2.tsx"
-                }
-              },
-              {
-                "value": {
-                  "__resolveType": "site/sections/Header2.tsx"
-                },
-                "rule": {
-                  "__resolveType": "website/matchers/always.ts"
-                }
-              }
-            ]
+            "__resolveType": "site/sections/Header2.tsx"
           },
           {
             "__resolveType": "site/sections/Principal.tsx",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/42d5acbe-302b-4a1b-b218-55e54fad26ed"
           },
           {
-            "__resolveType": "website/flags/multivariate/section.ts",
-            "variants": [
-              {
-                "value": {
-                  "__resolveType": "site/sections/SobreNos.tsx",
-                  "titulo": "Sobre nós",
-                  "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
-                  "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar."
-                }
-              },
-              {
-                "value": {
-                  "__resolveType": "site/sections/SobreNos.tsx",
-                  "titulo": "Sobre nós",
-                  "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
-                  "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar."
-                },
-                "rule": {
-                  "__resolveType": "website/matchers/always.ts"
-                }
-              }
-            ]
+            "__resolveType": "site/sections/SobreNos.tsx",
+            "titulo": "Sobre nós",
+            "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
+            "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar."
           },
           {
             "__resolveType": "site/sections/OqueFazemos.tsx",
