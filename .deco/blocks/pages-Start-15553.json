@@ -1,49 +1,152 @@
 {
   "name": "Home",
   "path": "/",
-  "sections": [
-    {
-      "__resolveType": "Preview /sections/Header2.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Principal.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/42d5acbe-302b-4a1b-b218-55e54fad26ed"
-    },
-    {
-      "__resolveType": "site/sections/SobreNos.tsx",
-      "titulo": "Sobre nós",
-      "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
-      "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar."
-    },
-    {
-      "__resolveType": "site/sections/OqueFazemos.tsx",
-      "titulo": "O que fazemos",
-      "categorias": [
-        {
-          "nome": "Descoberta",
-          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Atividades para entender no detalhe os desafios e o problema a ser resolvido em todas as dimensões - negócio, tecnologia e pessoas.</span></p>"
-        },
-        {
-          "nome": "Definição",
-          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Conceituação da solução, incluindo proposta de valor, prototipagem e validação com as pessoas que vão usar o produto final.</span></p>"
-        },
-        {
-          "nome": "Desenho",
-          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">A materialização completa da experiência, com a produção de telas, guias, fluxos das jornadas e prototipagem completa. Atividades de UX, UI e UX Writing para deixar o produto o mais próximo do final.</span></p>"
-        },
-        {
-          "nome": "Desenvolvimento",
-          "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Front-end completo e suporte para o desenvolvimento através de instruções, apresentações e até mesmo validação da implementação.</span></p>"
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "site/sections/Header2.tsx",
+            "message": "Hello, we are GUX!"
+          },
+          {
+            "__resolveType": "site/sections/Principal.tsx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/42d5acbe-302b-4a1b-b218-55e54fad26ed",
+            "line1": "We bring brands",
+            "line2": " & people together ",
+            "line3": " through experience",
+            "line4": " "
+          },
+          {
+            "__resolveType": "site/sections/SobreNos.tsx",
+            "titulo": "About Us",
+            "linha1": "With the combination of strategy & craft we create experiences capable of creating loyalty, bringing results and delighting",
+            "linha2": "We work at all stages of the product life cycle."
+          },
+          {
+            "__resolveType": "site/sections/OqueFazemos.tsx",
+            "titulo": "O que fazemos",
+            "categorias": [
+              {
+                "nome": "Discovery",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Research</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Analysis</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Interviews</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Benchmarking</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Journey mapping</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Focus group</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Mystery shopping</span><br><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Ethnographic study</span></p>"
+              },
+              {
+                "nome": "Definition",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Conceituação da solução, incluindo proposta de valor, prototipagem e validação com as pessoas que vão usar o produto final.</span></p>"
+              },
+              {
+                "nome": "Design",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">A materialização completa da experiência, com a produção de telas, guias, fluxos das jornadas e prototipagem completa. Atividades de UX, UI e UX Writing para deixar o produto o mais próximo do final.</span></p>"
+              },
+              {
+                "nome": "Development",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Front-end completo e suporte para o desenvolvimento através de instruções, apresentações e até mesmo validação da implementação.</span></p>"
+              }
+            ]
+          },
+          {
+            "__resolveType": "Preview site/sections/Footer.tsx"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/queryString.ts",
+          "conditions": [
+            {
+              "case": {
+                "type": "Equals",
+                "value": "en"
+              },
+              "param": "lang"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "__resolveType": "Preview site/sections/Footer.tsx"
-    }
-  ],
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "site/sections/Header2.tsx"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "site/sections/Header2.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Principal.tsx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/42d5acbe-302b-4a1b-b218-55e54fad26ed"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "site/sections/SobreNos.tsx",
+                  "titulo": "Sobre nós",
+                  "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
+                  "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar."
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "site/sections/SobreNos.tsx",
+                  "titulo": "Sobre nós",
+                  "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
+                  "linha2": "Nossa especialidade é o desenho de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar."
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/OqueFazemos.tsx",
+            "titulo": "O que fazemos",
+            "categorias": [
+              {
+                "nome": "Descoberta",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Atividades para entender no detalhe os desafios e o problema a ser resolvido em todas as dimensões - negócio, tecnologia e pessoas.</span></p>"
+              },
+              {
+                "nome": "Definição",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Conceituação da solução, incluindo proposta de valor, prototipagem e validação com as pessoas que vão usar o produto final.</span></p>"
+              },
+              {
+                "nome": "Desenho",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">A materialização completa da experiência, com a produção de telas, guias, fluxos das jornadas e prototipagem completa. Atividades de UX, UI e UX Writing para deixar o produto o mais próximo do final.</span></p>"
+              },
+              {
+                "nome": "Desenvolvimento",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Front-end completo e suporte para o desenvolvimento através de instruções, apresentações e até mesmo validação da implementação.</span></p>"
+              }
+            ]
+          },
+          {
+            "__resolveType": "Preview site/sections/Footer.tsx"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "type": "website"
+    "type": "website",
+    "title": "Home"
   }
 }

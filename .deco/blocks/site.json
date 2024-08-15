@@ -3,9 +3,9 @@
     "type": "website",
     "jsonLDs": [],
     "noIndexing": false,
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
-    "title": "Start",
+    "titleTemplate": "%s | gux.cx",
+    "descriptionTemplate": "%s | Gux.cx",
+    "title": "Home",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/20316bec-e730-4817-9644-ce8298da46b7",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/625efeba-033d-4ce4-8d5f-98e7d7fbf19e",
     "description": "Aproximamos marcas e pessoas através da experiência"
