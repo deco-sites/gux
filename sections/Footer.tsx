@@ -39,7 +39,7 @@ function Footer({
         </div>
         <div class="flex flex-col lg:flex-row basis-full md:basis-4/5">
           {links.map((link) => (
-            <a href="{link.url}" class="flex-[1_1_auto] md:basis-1/2 border-b lg:border-b-0 lg:border-r border-[#3B3B3B] pl-8">
+            <a href={link.url} class="flex-[1_1_auto] md:basis-1/2 border-b lg:border-b-0 lg:border-r border-[#3B3B3B] pl-8">
               <div class="flex group">
                 <div class="grow shrink basis-0 text-white text-[54px] md:text-[70px] font-light font-['Kantumruy Pro'] uppercase leading-[70px] py-2">{link.label}</div>
                 <div class="flex border-l border-[#3b3b3b] h-auto w-fit px-4 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
