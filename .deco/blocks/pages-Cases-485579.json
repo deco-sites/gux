@@ -1,6 +1,6 @@
 {
-  "name": "Home",
-  "path": "/",
+  "name": "Cases",
+  "path": "/cases",
   "sections": {
     "__resolveType": "website/flags/multivariate.ts",
     "variants": [
@@ -84,29 +84,33 @@
           },
           {
             "__resolveType": "site/sections/Principal.tsx",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10559/625efeba-033d-4ce4-8d5f-98e7d7fbf19e"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/gux/c7b011d2-709f-4c39-9de2-e649149113bc/green2x.png"
           },
           {
             "__resolveType": "site/sections/SobreNos.tsx",
-            "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
-            "linha2": "Nossa especialidade é a construção de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar.",
-            "titulo": "Sobre nós"
+            "linha2": "Desde 2016 no mercado, a Linked é especialista em automação e gestão para o varejo. Milhares de estabelecimentos utilizam as soluções da marca, que atua principalmente no segmento de food service.   A GUX literalmente entrou na cozinha de bares e restaurantes para mapear dores e oportunidades do setor.  Trabalho também contou com atividades de branding, design e desenvolvimento  front-end.",
+            "titulo": "Linked Tech",
+            "linha1": "Revisão do funil de aquisição"
           },
           {
             "__resolveType": "site/sections/OqueFazemos.tsx",
             "titulo": "O que fazemos",
             "categorias": [
               {
-                "nome": "ESTRATÉGIA",
-                "descricao": "<p>Brand Experience</p><p>Desenho de jornadas</p><p>Estratégia de Produto</p><p>Estratégia de ecossistemas digitais</p><p>Pesquisas e testes com usuários</p><p>Workshops interativos</p>"
+                "nome": "Descoberta",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Atividades para entender no detalhe os desafios e o problema a ser resolvido em todas as dimensões - negócio, tecnologia e pessoas.</span></p>"
               },
               {
-                "nome": "DESIGN",
-                "descricao": "<p>UX e UI Design</p><p>Desenho de jornadas</p><p>Concepção de produtos digitais</p><p>Motion Design</p><p>Brand Design</p><p>Design Systems</p><p>Design Ops</p>"
+                "nome": "Definição",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Conceituação da solução, incluindo proposta de valor, prototipagem e validação com as pessoas que vão usar o produto final.</span></p>"
               },
               {
-                "nome": "DESENVOLVIMENTO",
-                "descricao": "<p>Design System</p><p>Full stack web development</p><p>Arquitetura de devops</p><p>API e CMS development</p><p>Análise de performance</p><p>Acessibilidade</p><p>Consultoria técnica</p>"
+                "nome": "Desenho",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">A materialização completa da experiência, com a produção de telas, guias, fluxos das jornadas e prototipagem completa. Atividades de UX, UI e UX Writing para deixar o produto o mais próximo do final.</span></p>"
+              },
+              {
+                "nome": "Desenvolvimento",
+                "descricao": "<p><span style=\"color: rgb(150, 150, 150);\" data-mce-style=\"color: rgb(150, 150, 150);\">Front-end completo e suporte para o desenvolvimento através de instruções, apresentações e até mesmo validação da implementação.</span></p>"
               }
             ]
           },
@@ -133,10 +137,8 @@
       }
     ]
   },
-  "__resolveType": "website/pages/Page.tsx",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "type": "website",
-    "title": "Home"
-  }
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
 }
