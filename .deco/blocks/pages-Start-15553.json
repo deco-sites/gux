@@ -88,25 +88,25 @@
           },
           {
             "__resolveType": "site/sections/SobreNos.tsx",
-            "linha1": "SOMOS UMA CONSULTORIA DE EXPERIÊNCIA",
-            "linha2": "Nossa especialidade é a construção de produtos e serviços digitais. Criamos experiências capazes de fidelizar, trazer resultados e encantar.",
-            "titulo": "Sobre nós"
+            "linha2": "Trabalhamos com uma abordagem customizada de Product-Led Growth, onde aquisição, ativação e retenção estão conectadas à experiência real de uso",
+            "titulo": "Sobre nós",
+            "linha1": "Growth experience"
           },
           {
             "__resolveType": "site/sections/OqueFazemos.tsx",
             "titulo": "O que fazemos",
             "categorias": [
               {
-                "nome": "ESTRATÉGIA",
-                "descricao": "<p>Brand Experience</p><p>Desenho de jornadas</p><p>Estratégia de Produto</p><p>Estratégia de ecossistemas digitais</p><p>Pesquisas e testes com usuários</p><p>Workshops interativos</p>"
+                "descricao": "<p>Desenho de experiência</p><p><br data-mce-bogus=\"1\"></p><p>Produtos digitais</p><p><br data-mce-bogus=\"1\"></p><p>Desenvolvimento de sites</p><p><br data-mce-bogus=\"1\"></p><p>Desenvolvimento de apps</p><p><br data-mce-bogus=\"1\"></p><p>Design System</p><p><br data-mce-bogus=\"1\"></p><p>Aplicações de IA (estratégia, design e dev)</p><p><br data-mce-bogus=\"1\"></p><p>Integrações de produtos, martechs e soluções digitais</p>",
+                "nome": "GUX EXPERIENCE"
               },
               {
-                "nome": "DESIGN",
-                "descricao": "<p>UX e UI Design</p><p>Desenho de jornadas</p><p>Concepção de produtos digitais</p><p>Motion Design</p><p>Brand Design</p><p>Design Systems</p><p>Design Ops</p>"
+                "nome": "GUX GROWTH",
+                "descricao": "<p>Jornada de aquisição</p><p><br data-mce-bogus=\"1\"></p><p>Análise de funil</p><p><br data-mce-bogus=\"1\"></p><p>CRO</p><p><br data-mce-bogus=\"1\"></p><p>Hipóteses e testes</p><p><br data-mce-bogus=\"1\"></p><p>Criativos dinâmicos e customizáveis</p><p><br data-mce-bogus=\"1\"></p><p>Automação e escala via IA</p>"
               },
               {
-                "nome": "DESENVOLVIMENTO",
-                "descricao": "<p>Design System</p><p>Full stack web development</p><p>Arquitetura de devops</p><p>API e CMS development</p><p>Análise de performance</p><p>Acessibilidade</p><p>Consultoria técnica</p>"
+                "nome": "GUX EMBEDDED",
+                "descricao": "<p>Equipes dedicadas in-house</p><p><br data-mce-bogus=\"1\"></p><p><span class=\"s2\">Estruturação de times dedicados (design, conteúdo, growth)<br></span></p><p><span class=\"s2\"><br data-mce-bogus=\"1\"></span></p><p><span class=\"s2\">Operação contínua de Martech, CRM e performance interna</span></p><p><br data-mce-bogus=\"1\"></p><p>Squads de produto e experiência</p><p><br data-mce-bogus=\"1\"></p><p>Dev ops</p>"
               }
             ]
           },
